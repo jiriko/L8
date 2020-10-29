@@ -42,7 +42,7 @@ class TaskBurndown
     protected function countRemainingTask($time)
     {
         return $this->tasks->filter(function ($task) use ($time) {
-            return !$task->completed_at || (int)$task->completed_at->format('U') > (int)$time;
+            return !$task->completed_at || (int)$task->completed_at->format('U') > (int)$time + 60 ;
         })->count();
     }
 }

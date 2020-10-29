@@ -30,7 +30,7 @@ class BurndownTest extends TestCase
         $tasks2 = Task::factory()->create([
             'user_id' => $user->id
         ]);
-        $tasks2->created_at = now()->startOfHour()->addMinutes(4);
+        $tasks2->created_at = now()->startOfHour()->addMinutes(5);
         $tasks2->save(['timestamps' => false]);
 
         //assert that in the 35th minute we still have 2 uncompleted tasks
@@ -38,7 +38,7 @@ class BurndownTest extends TestCase
         $this->assertEquals(2, $tasks[34]);
 
         //now if we completed a task at minute 35
-        $tasks2->update(['completed_at' => now()->addMinutes(4)]);
+        $tasks2->update(['completed_at' => now()->addMinutes(5)]);
         //we can assert that we now only have 1 task uncompleted at minute 35
         $tasks = (new TaskBurndown(now(), $user))->get();
         $this->assertEquals(1, $tasks[34]);

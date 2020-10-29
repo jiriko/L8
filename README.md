@@ -13,6 +13,6 @@
 
 ## Running Tests
 
-- update phpunit.xml if not using :memory: as DB_CONNECTION
+- update phpunit.xml or create .env.testing if not using :memory: as DB_CONNECTION
 - php artisan test --group=tasks
 - php artisan test --group=numbers
