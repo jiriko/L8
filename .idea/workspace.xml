@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f131781-0ca5-417b-9b83-1ed5ef53a351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_29_10_2020__9_14_AM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/brownpaperbag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brownpaperbag.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Graph/TaskBurndown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Graph/TaskBurndown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Models/Graph/BurndownTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/Graph/BurndownTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603856729490</updated>
       <workItem from="1603856731650" duration="14414000" />
-      <workItem from="1603934067008" duration="181000" />
+      <workItem from="1603934067008" duration="280000" />
     </task>
     <servers />
   </component>
@@ -213,9 +218,9 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="360" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1603869228914" />
-    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1603934221901">
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1603934313653">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1603934221901" />
+    <state x="561" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1603934313653" />
   </component>
 </project>
